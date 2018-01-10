@@ -1,0 +1,113 @@
+<template>
+	<div class="guessing">
+		<this-left-right :leftandright="imgtxt"></this-left-right>
+	</div>
+</template>
+
+<script>
+import thisLeftRight from '../../components/home/leftandright'
+export default{
+	data(){
+		return{
+			imgtxt:[
+				{
+					src1:require('../../assets/home/竞猜/竞猜_03.png'),
+					titles:'金州勇士继续保持强势,活塞生猛主场不留机会',
+					span2:"竞彩",
+					times:'1小时前',
+					src2:require('../../assets/public/竞猜_06.png'),
+					span3:890,
+					src3:require('../../assets/public/竞猜_08.png'),
+					span4:9
+				},
+				{
+					src1:require('../../assets/home/竞猜/竞猜_13.png'),
+					titles:'国际友谊赛,冰岛以和为贵！',
+					span2:"竞彩",
+					times:'1小时前',
+					src2:require('../../assets/public/竞猜_06.png'),
+					span3:760,
+					src3:require('../../assets/public/竞猜_08.png'),
+					span4:0
+				},
+				{
+					src1:require('../../assets/home/竞猜/竞猜_15.png'),
+					titles:'周三彩经,弗拉门戈VS克鲁塞罗,帕丘卡VS提华纳',
+					span2:"竞彩",
+					times:'1小时前',
+					src2:require('../../assets/public/竞猜_06.png'),
+					span3:125,
+					src3:require('../../assets/public/竞猜_08.png'),
+					span4:4
+				},
+				{
+					src1:require('../../assets/home/竞猜/竞猜_17.png'),
+					titles:'【NBA常规赛推荐】 有人说NBA的历史就是湖凯交锋史',
+					span2:"竞彩",
+					times:'1小时前',
+					src2:require('../../assets/public/竞猜_06.png'),
+					span3:62,
+					src3:require('../../assets/public/竞猜_08.png'),
+					span4:7
+				},
+				{
+					src1:require('../../assets/home/竞猜/竞猜_19.png'),
+					titles:'【周三竞彩推荐】 8倍大奶奉上,看到了是缘分',
+					span2:"竞彩",
+					times:'1小时前',
+					src2:require('../../assets/public/竞猜_06.png'),
+					span3:890,
+					src3:require('../../assets/public/竞猜_08.png'),
+					span4:9
+				},
+				{
+					src1:require('../../assets/home/竞猜/竞猜_21.png'),
+					titles:'周三009:目标坚定,桑托斯“上马”取分',
+					span2:"竞彩",
+					times:'1小时前',
+					src2:require('../../assets/public/竞猜_06.png'),
+					span3:190,
+					src3:require('../../assets/public/竞猜_08.png'),
+					span4:5
+				},
+				{
+					src1:require('../../assets/home/竞猜/竞猜_23.png'),
+					titles:'自古01出下盘,今晚上赛事推荐',
+					span2:"竞彩",
+					times:'1小时前',
+					src2:require('../../assets/public/竞猜_06.png'),
+					span3:820,
+					src3:require('../../assets/public/竞猜_08.png'),
+					span4:9
+				},
+				{
+					src1:require('../../assets/home/竞猜/竞猜_25.png'),
+					titles:'周二彩经,维冈竞技VS阿克灵顿,剑桥联VS彼得堡联',
+					span2:"竞彩",
+					times:'2小时前',
+					src2:require('../../assets/public/竞猜_06.png'),
+					span3:88,
+					src3:require('../../assets/public/竞猜_08.png'),
+					span4:1
+				},
+				{
+					src1:require('../../assets/home/竞猜/竞猜_27.png'),
+					titles:'【NBA常规赛推荐】雷霆取胜力止颓势,灰熊开拓者难解难分',
+					span2:"竞彩",
+					times:'2小时前',
+					src2:require('../../assets/public/竞猜_06.png'),
+					span3:90,
+					src3:require('../../assets/public/竞猜_08.png'),
+					span4:9
+				}
+			]
+		}
+	},
+	components:{
+		thisLeftRight
+	}
+}
+</script>
+
+<style>
+</style>
